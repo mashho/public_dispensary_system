@@ -1,0 +1,19 @@
+.forgot-password-modal{
+    top: 0;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot-password-btn{
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    &:hover{
+        background-color: #3485b7;
+    }
+}

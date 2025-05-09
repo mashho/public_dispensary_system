@@ -1,0 +1,51 @@
+.student-dashboard{
+    margin: 60px 100px;
+}
+.student-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcone-user{
+    font-size: 26px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    user-select: none;
+}
+.welcone-user span{
+    color: #255674;
+    font-size: 30px;
+}
+
+.student-data{
+    width: 40%;
+    margin-top: 30px;
+    
+}
+
+.student-data-header{
+    background-color: #255674;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.student-header-title{
+    font-size: 20px;
+}
+
+.student-row-items{
+    box-shadow:  rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.student-row-item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}

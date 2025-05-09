@@ -1,0 +1,36 @@
+.modal{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-card{
+    width: 50%;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    height: fit-content;
+    padding: 20px;
+    margin-top: 100px;
+}
+
+.modal-card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-card-header-title{
+    font-size: 28px;
+    font-weight: 600;
+
+}
+
+.modal-content{
+    width: 100%;
+    margin-top: 30px;
+}

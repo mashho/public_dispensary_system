@@ -1,0 +1,60 @@
+.student-modal-report{
+    margin:20px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.student-details-scroll{
+    max-height: 450px;
+    min-height: 100px;
+    overflow-y: auto;
+
+}
+
+.student-modal-detail{
+    width: 100%;
+
+}
+
+.student-modal-header{
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #255674;
+}
+
+.student-modal-body-student{
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.student-modal-body-header{
+    padding: 15px;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #255674;
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+
+.student-modal-body-item{
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.student-item-modal{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.stock-page{
+    width: 100%;
+    padding: 40px 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: whitesmoke;
+}
+.stock-page-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 40px;
+    width: 80%;
+    box-sizing: border-box;
+    background-color: white;
+}

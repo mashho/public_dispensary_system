@@ -1,0 +1,32 @@
+.manageMedicine{
+    padding: 60px 100px;
+    background-color: whitesmoke;
+
+}
+
+
+.top-manage-medicine{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.add-manage-medicine{
+    padding: 10px 20px;
+    height: fit-content;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: #255674;
+    color: white;
+    &:hover{
+        background-color: #2c98dc;
+    }
+}
+
+
+.manageMedicine-card{
+    background-color: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-top: 20px;
+}

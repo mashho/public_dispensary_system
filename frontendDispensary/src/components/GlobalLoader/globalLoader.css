@@ -1,0 +1,16 @@
+.global-loader{
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+}
+.loader{
+    width: 140px !important;
+    height: 140px !important;
+}

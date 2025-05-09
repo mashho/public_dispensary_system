@@ -1,0 +1,85 @@
+.home{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+.home-block{
+    display: flex;
+    padding: 3px;
+    gap: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.home-left-page{
+    flex: 0.25;
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.home-right-page{
+    flex: 0.75;
+    padding: 20px;
+    margin: 20px 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.home-left-option{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    align-items: center;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: transform 0.4s;
+
+    &:hover{
+        background-color: #255674;
+        transform: scale(1.04);
+        color: white;
+    }
+}
+
+.home-right-header{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #255674;
+}
+.active-opt{
+    background-color: #255674;
+    color: white !important;
+}
+.home-right-section{
+    border: 2px solid;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.home-right-section::-webkit-scrollbar {
+    width: 8px; /* Set the scrollbar width */
+    height: 8px; /* Set the scrollbar height (for horizontal scrolling) */
+  }
+  
+  .home-right-section::-webkit-scrollbar-thumb {
+    background-color: #255674; /* Color of the scrollbar handle */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
+  .home-right-section::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Color of the scrollbar track */
+  }

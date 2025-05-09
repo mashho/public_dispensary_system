@@ -1,0 +1,25 @@
+.facility-header{
+    font-size: 21px;
+    color: #255674;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.facility-lists{
+    display: flex;
+    flex-direction: column;
+}
+
+.facility-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.facility-list-header{
+    font-weight: 600;
+    color: #255674;
+    font-size: 20px;
+}
+.facility-list-value{
+    font-size: 18px;
+}

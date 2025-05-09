@@ -1,0 +1,52 @@
+.admin-facility{
+    padding: 60px 100px;
+    background-color: whitesmoke;
+}
+.admin-facility-header{
+    font-size: 28px;
+    color: #255674;
+    display: flex;
+    justify-content: space-between;
+}
+.add-facility-btn{
+    padding: 10px 20px;
+    background-color: #255674;
+    color: white;
+    height: fit-content;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    &:hover{
+        background-color: #2c98dc;
+    }
+}
+
+
+.admin-facility-rows{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.admin-facility-row{
+    padding: 20px 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-facility-title{
+    font-size: 20px;
+    color: #255674;
+    font-weight: 700;
+}
+
+.admin-facility-btns{
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    box-sizing: border-box;
+
+}
